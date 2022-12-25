@@ -3,6 +3,7 @@
   -webkit-font-smoothing: antialiased;
   align-items: center;
   background-color: #2A2C2F;
+  box-sizing: border-box;
   color: white;
   display: flex;
   flex-direction: column;
@@ -10,10 +11,10 @@
   font-style: normal;
   margin: 0 auto;
   max-width: 1280px;
+  min-height: 100vh;
   min-width: 320px;
   padding: 28px 0 24px 0;
   position: relative;
-  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1279px) {
