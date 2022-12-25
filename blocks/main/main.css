@@ -1,16 +1,14 @@
 .main {
   align-items: center;
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  padding: 0;
   position: relative;
   width: 100%;
 }
 
-@media all and (min-width: 1280px) {
+/* @media all and (min-width: 1280px) {
 
   .main {
     padding: 0 100px;
   }
-}
+} */

@@ -1,13 +1,22 @@
 .intro__list {
   list-style-type: none;
-  margin: 0 0 92px 0;
-  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 148px;
+}
+
+@media screen and (max-width: 1279px) {
+
+  .intro__list {
+    padding: 0 48px;
+  }
 }
 
 @media screen and (max-width: 1023px) {
 
   .intro__list {
     margin-bottom: 88px;
+    padding: 0 24px;
   }
 }
 
@@ -15,5 +24,6 @@
 
   .intro__list {
     margin-bottom: 64px;
+    padding: 0 16px;
   }
 }
