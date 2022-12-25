@@ -9,7 +9,8 @@
 .footer__link:hover,
 .footer__link:focus,
 .footer__link:active {
-  color: inherit;
+  color: #FFFFFF;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 767px) {
