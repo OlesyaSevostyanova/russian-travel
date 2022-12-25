@@ -1,0 +1,33 @@
+.places {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 92px 0;
+  position: relative;
+  row-gap: 80px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+
+  .places {
+    margin-bottom: 90px;
+    row-gap: 72px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .places {
+    margin-bottom: 90px;
+    row-gap: 72px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .places {
+    margin-bottom: 60px;
+    row-gap: 50px;
+  }
+}

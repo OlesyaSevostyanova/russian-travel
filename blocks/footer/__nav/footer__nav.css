@@ -1,0 +1,17 @@
+.footer__nav {
+  align-items: center;
+  column-gap: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+@media screen and (max-width: 767px) {
+
+  .footer__nav {
+    align-items: flex-start;
+    column-gap: 0;
+    flex-direction: column;
+    row-gap: 32px;
+  }
+}

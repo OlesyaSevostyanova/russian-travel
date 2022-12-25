@@ -1,0 +1,14 @@
+.place__link {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  margin: 0;
+  text-decoration-line: underline;
+}
+
+.place__link:hover,
+.place__link:focus,
+.place__link:active {
+  color: inherit;
+}

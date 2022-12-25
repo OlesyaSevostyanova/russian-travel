@@ -1,0 +1,17 @@
+/* HEADER */
+
+.header {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 48px;
+  position: relative;
+  width: 100%;
+}
+
+@media screen and (min-width: 1279px) {
+
+  .header {
+    margin-bottom: 72px;
+  }
+}
