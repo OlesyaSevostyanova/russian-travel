@@ -1,6 +1,13 @@
 .footer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   position: relative;
   width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+
+  .footer {
+    flex-direction: column;
+  }
 }
