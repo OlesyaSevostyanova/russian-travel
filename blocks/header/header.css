@@ -1,7 +1,6 @@
 .header {
   align-items: flex-end;
   box-sizing: border-box;
-  display: flex;
   display: grid;
   flex-direction: row;
   grid-template-columns: auto max-content;

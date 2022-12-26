@@ -9,7 +9,6 @@
 .footer__link:hover,
 .footer__link:focus,
 .footer__link:active {
-  color: #FFFFFF;
   opacity: 0.8;
 }
 

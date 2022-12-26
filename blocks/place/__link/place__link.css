@@ -10,6 +10,5 @@
 .place__link:hover,
 .place__link:focus,
 .place__link:active {
-  color: #FFFFFF;
   opacity: 0.8;
 }
